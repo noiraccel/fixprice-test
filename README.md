@@ -1,7 +1,7 @@
 ## Запуск
 
 1. Поднять backend и БД:
-   docker compose up --build -d
+   cd backend docker compose up --build -d
 
 2. Применить миграцию:
    docker exec -it *название* php yii migrate
